@@ -1,0 +1,1072 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Fashionable Store WooCommerce Theme\n"
+"POT-Creation-Date: 2020-06-30 09:17+0300\n"
+"PO-Revision-Date: 2018-02-16 17:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: https://akisthemes.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_attr__;esc_html_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-pages.php:25
+msgid "PRO VERSION? DON'T THINK SO.."
+msgstr ""
+
+#: admin/admin-pages.php:26
+msgid ""
+"Fashionable store has *PRO* features and gets updated very often.\n"
+"    So there is no need at all for a \"Pro\" version of this theme. We only get better based on your feedback. Please rate us. "
+msgstr ""
+
+#: admin/admin-pages.php:28
+msgid "Rate our Theme"
+msgstr ""
+
+#: admin/admin-pages.php:38
+msgid "Getting Started"
+msgstr ""
+
+#: admin/admin-pages.php:42
+msgid "Documentation / Support"
+msgstr ""
+
+#: admin/admin-pages.php:46
+msgid "Extra Info"
+msgstr ""
+
+#: admin/admin-pages.php:64
+#, php-format
+msgid "Welcome to %1$s"
+msgstr ""
+
+#: admin/admin-pages.php:65
+#, php-format
+msgid "About  %1$s"
+msgstr ""
+
+#: admin/admin-pages.php:80
+#, php-format
+msgid "Welcome to %1$s "
+msgstr ""
+
+#: admin/admin-pages.php:84
+msgid ""
+"You are minutes away for creating something smashing good \n"
+"                        for any kind of eshop. Fashionable Store Theme is a totally compatible to the WooCommerce plugin, fully responsive theme that gets updated really often with great features. \n"
+"                        Check the tabs below to get you started in no time."
+msgstr ""
+
+#: admin/admin-pages.php:131
+msgid "1. Install The Recommended Plugins"
+msgstr ""
+
+#: admin/admin-pages.php:133
+msgid ""
+"This theme comes with some recommended plugins. You can use it without them installed, however\n"
+"                        if you install them you\n"
+"                        use this theme with its max features. The recommended plugins appear at the top of the screen when in a notice box."
+msgstr ""
+
+#: admin/admin-pages.php:137
+msgid "If you haven't already done so, please install and activate these plugins."
+msgstr ""
+
+#: admin/admin-pages.php:141
+msgid "2. Install the demo content."
+msgstr ""
+
+#: admin/admin-pages.php:144
+msgid ""
+"Due to the new guilelines you have to copy the following URL into your browser and follow the steps to install the demo content.It easy very easy.\"\n"
+"                      https://akisthemes.com/docs/fashionable-store-documentation/demo-data-installation/how-to-install-the-demo-data/"
+msgstr ""
+
+#: admin/admin-pages.php:158
+msgid "1. Documentation"
+msgstr ""
+
+#: admin/admin-pages.php:160
+msgid ""
+"This theme comes with extensive documentation. \n"
+"\t\t\t\t\t\tYou can find it by clicking the button below."
+msgstr ""
+
+#: admin/admin-pages.php:165
+msgid "Read the Docs"
+msgstr ""
+
+#: admin/admin-pages.php:170
+msgid "2. Support"
+msgstr ""
+
+#: admin/admin-pages.php:173
+msgid "We provide awesome support through the WordPress.org forums. If you need any help just click the button below. We really respect our users."
+msgstr ""
+
+#: admin/admin-pages.php:178
+msgid "I need support"
+msgstr ""
+
+#: admin/admin-pages.php:190
+msgid "1. Changelog"
+msgstr ""
+
+#: admin/admin-pages.php:192
+msgid "Click the button below to learn more about the changelog of this theme. You can view all the changes that happen with any new update."
+msgstr ""
+
+#: admin/admin-pages.php:196
+msgid "View Changelog"
+msgstr ""
+
+#: comments.php:9
+msgid "on "
+msgstr ""
+
+#: comments.php:33
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:33
+msgid "Trackback"
+msgstr ""
+
+#: functions.php:56
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:57
+msgid "Header Side Menu"
+msgstr ""
+
+#: functions.php:58
+msgid "Copyright Menu"
+msgstr ""
+
+#: functions.php:139
+msgid "has been added to your cart"
+msgstr ""
+
+#: functions.php:166
+msgid "Header sidebar"
+msgstr ""
+
+#: functions.php:167
+msgid " In this sidebar you can use widgets eg the smart widget slider etc and it will be shown in the header container. This widget's area visibility is controlled via the header visibility options in Customize > Fashionable Store Options > Header Options > Do you want the header image to appear to all pages / posts etc?"
+msgstr ""
+
+#: functions.php:176
+msgid "Main sidebar"
+msgstr ""
+
+#: functions.php:177
+msgid " The main sidebar."
+msgstr ""
+
+#: functions.php:186
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:187
+msgid " The shop sidebar"
+msgstr ""
+
+#: functions.php:196
+msgid "Top Bar Sidebar 1"
+msgstr ""
+
+#: functions.php:197
+msgid "Sidebar at the top bar (left)"
+msgstr ""
+
+#: functions.php:205
+msgid "Top Bar Sidebar 2"
+msgstr ""
+
+#: functions.php:206
+msgid "Sidebar at the top bar (middle)"
+msgstr ""
+
+#: functions.php:215
+msgid "Top Bar Sidebar 3"
+msgstr ""
+
+#: functions.php:216
+msgid "Sidebar at the top bar (right)"
+msgstr ""
+
+#: functions.php:225
+msgid "Team Member sidebar"
+msgstr ""
+
+#: functions.php:226
+msgid "This sidebar appears only in the single team member page."
+msgstr ""
+
+#: functions.php:236
+msgid "Footer sidebar"
+msgstr ""
+
+#: functions.php:237
+msgid " This sidebar appears in the footer. You can use the customizer to select the layout this sidebar"
+msgstr ""
+
+#: functions.php:284
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:305
+msgid "Edit this comment"
+msgstr ""
+
+#: functions.php:381 includes/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:382 includes/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:384 includes/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:386 includes/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: functions.php:387 includes/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:439 includes/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:440 includes/class-tgm-plugin-activation.php:387
+#: includes/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:441 includes/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions.php:443 includes/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: functions.php:445 includes/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: functions.php:447 includes/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions.php:448 includes/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions.php:449 includes/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: functions.php:450 includes/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: functions.php:467
+msgid "Demo Import 1"
+msgstr ""
+
+#: functions.php:472 functions.php:481
+msgid "After importing this data everything will be in place like the demo."
+msgstr ""
+
+#: functions.php:476
+msgid "Demo Import 2"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:386
+#: includes/class-tgm-plugin-activation.php:827
+#: includes/class-tgm-plugin-activation.php:2533
+#: includes/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:934
+#: includes/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3509
+#: includes/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3509
+#: includes/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/customizer-functions/customizer-panels.php:8
+msgid "Fashionable Store - Homepage"
+msgstr ""
+
+#: includes/customizer-functions/customizer-panels.php:9
+msgid "This settings apply to the page you have set as the homepage in the \"Settings > Reading Section\"."
+msgstr ""
+
+#: includes/customizer-functions/customizer-panels.php:18
+msgid "Fashionable Store - Theme Options"
+msgstr ""
+
+#: includes/customizer-functions/customizer-panels.php:19
+msgid "A lot of options to customize your website completely."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/blog-settings.php:6
+msgid "Blog section"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/blog-settings.php:7
+msgid "The blog section of the homepage. It uses the title and the excerpt from the blog page you have set at the \"Reading Settings\". At the moment you can show the last 3 blog entries."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/blog-settings.php:21
+#: includes/customizer-functions/homepage-layout/testimonial-settings.php:28
+msgid "Enable this section."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/featured-categories-settings.php:7
+msgid "Featured Categories"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/featured-categories-settings.php:8
+msgid "Show some of your best categories on the front page."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/featured-categories-settings.php:29
+msgid "Add the exact names of the product categories, comma separated"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/featured-categories-settings.php:30
+msgid "Add the exact name and respect the case eg Shoes is different than shoes."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/featured-categories-settings.php:36
+msgid "The style of the featured categories"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/featured-categories-settings.php:37
+msgid "Choose your preferred layout."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/featured-categories-settings.php:39
+#: includes/customizer-functions/options/copyright-options.php:33
+#: includes/customizer-functions/options/header-image-options.php:46
+msgid "Style 1"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/featured-categories-settings.php:40
+#: includes/customizer-functions/options/copyright-options.php:34
+#: includes/customizer-functions/options/header-image-options.php:47
+msgid "Style 2"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-1-settings.php:7
+msgid "Section 1"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-1-settings.php:8
+msgid "The first section below the featured categories."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-1-settings.php:26
+#: includes/customizer-functions/homepage-layout/section-2-settings.php:25
+#: includes/customizer-functions/homepage-layout/section-3-settings.php:25
+#: includes/customizer-functions/homepage-layout/section-4-settings.php:25
+msgid "Set background color."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-1-settings.php:34
+#: includes/customizer-functions/homepage-layout/section-2-settings.php:32
+#: includes/customizer-functions/homepage-layout/section-3-settings.php:32
+#: includes/customizer-functions/homepage-layout/section-4-settings.php:32
+msgid "Select the page to show the content."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-1-settings.php:35
+#: includes/customizer-functions/homepage-layout/section-3-settings.php:33
+#: includes/customizer-functions/homepage-layout/section-4-settings.php:33
+msgid "Keep in mind to use a page that you have pasted a WooCommerce shortcode inside it order to make the products shown inside this section. There are some examples for this in the documentation."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-2-settings.php:7
+msgid "Section 2"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-2-settings.php:8
+msgid "The second section below the featured categories section."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-2-settings.php:33
+msgid "Keep in mind to use a page that you have pasted a WooCommerce shortcode inside it order to make the products shown inside this section. The title of that page and the excerpt will be shown as title and subtitle automatically. There are some examples for this in the documentation."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-3-settings.php:7
+msgid "Section 3"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-3-settings.php:8
+msgid "The third section below the featured categories."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-4-settings.php:7
+msgid "Section 4"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/section-4-settings.php:8
+msgid "The fourth section below the featured categories."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/testimonial-settings.php:6
+msgid "Testimonials section"
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/testimonial-settings.php:7
+msgid "Show your latest testimonials using a great testimonials slider."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/testimonial-settings.php:35
+msgid "Select the parent page of the testimonials."
+msgstr ""
+
+#: includes/customizer-functions/homepage-layout/testimonial-settings.php:36
+msgid "By selecting the page above, all its children pages will be act like the testimonials. Refer to the documentation to see how you use this section."
+msgstr ""
+
+#: includes/customizer-functions/options/copyright-options.php:7
+msgid "Copyright section"
+msgstr ""
+
+#: includes/customizer-functions/options/copyright-options.php:30
+msgid "Select the copyright section style"
+msgstr ""
+
+#: includes/customizer-functions/options/copyright-options.php:31
+#: includes/customizer-functions/options/header-image-options.php:44
+msgid "There are more than one to choose from. Please refer to the documentation to view the available layouts."
+msgstr ""
+
+#: includes/customizer-functions/options/copyright-options.php:35
+msgid "Style 3"
+msgstr ""
+
+#: includes/customizer-functions/options/copyright-options.php:36
+msgid "Style 4"
+msgstr ""
+
+#: includes/customizer-functions/options/copyright-options.php:44
+msgid "Copyright"
+msgstr ""
+
+#: includes/customizer-functions/options/copyright-options.php:45
+msgid "Add your copyright text here. You can use this text with the available copyright layouts."
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:6
+msgid "Eshop Options"
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:24
+msgid "Select the shop page layout"
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:25
+msgid "You can select with or without the shop sidebar."
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:27
+msgid "With Sidebar"
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:28
+msgid "Without Sidebar"
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:36
+msgid "Select the number of product columns"
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:37
+msgid "You can select between 2-6 columns. These applies to all shop archive pages and the main shop page."
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:39
+msgid "2 Columns"
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:40
+msgid "3 Columns"
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:41
+msgid "4 Columns"
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:42
+msgid "5 Columns"
+msgstr ""
+
+#: includes/customizer-functions/options/eshop-options.php:43
+msgid "6 Columns"
+msgstr ""
+
+#: includes/customizer-functions/options/footer-options.php:7
+msgid "Footer section"
+msgstr ""
+
+#: includes/customizer-functions/options/footer-options.php:23
+msgid "Select the footer(widget area) layout"
+msgstr ""
+
+#: includes/customizer-functions/options/footer-options.php:24
+msgid "You can have boxed and full width layout."
+msgstr ""
+
+#: includes/customizer-functions/options/footer-options.php:26
+msgid "Boxed"
+msgstr ""
+
+#: includes/customizer-functions/options/footer-options.php:27
+msgid "Full width"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:7
+msgid "Navigation & Header Image section"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:43
+msgid "Select header (contains the navigation) style"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:55
+msgid "Enable side menu on the left of the header image."
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:56
+msgid "If you enable this option you have use the \"Header Side Menu\" in the navigation menus."
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:58
+msgid "Disable"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:59
+msgid "Enable"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:67
+msgid "Do you want the header image to appear to all pages / posts etc?"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:68
+msgid "If this is a \"No\" the header image (if any) will appear only to the homepage and the static front page."
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:70
+msgid "No - Only Front"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:71
+msgid "Yes, everywhere"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:79
+msgid "Stick the header at the top."
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:80
+msgid "Enable this to set the main navigation fixed during the page scroll."
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:82
+#: includes/customizer-functions/options/top-bar-options.php:31
+msgid "No"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:83
+#: includes/customizer-functions/options/top-bar-options.php:32
+msgid "Yes"
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:90
+msgid "Select the content of the header image(page)."
+msgstr ""
+
+#: includes/customizer-functions/options/header-image-options.php:91
+msgid "This is a page. If you apply a page ,then title of that page and its link will be visible!"
+msgstr ""
+
+#: includes/customizer-functions/options/slider-options.php:7
+msgid "Slider Options"
+msgstr ""
+
+#: includes/customizer-functions/options/slider-options.php:8
+msgid "You can have an slider with unlimited slides! If you enable this feature you have to remove the header image if you have set any. If not both the slider and the header image will appear."
+msgstr ""
+
+#: includes/customizer-functions/options/slider-options.php:22
+msgid "Select the parent page of the slider."
+msgstr ""
+
+#: includes/customizer-functions/options/slider-options.php:23
+msgid "By selecting the page above, all its children pages will be act like the slides. Refer to the documentation to see how you use this section."
+msgstr ""
+
+#: includes/customizer-functions/options/top-bar-options.php:7
+msgid "Top Bar section"
+msgstr ""
+
+#: includes/customizer-functions/options/top-bar-options.php:28
+msgid "Do you want to enable the top bar?"
+msgstr ""
+
+#: includes/customizer-functions/options/top-bar-options.php:29
+msgid "If you select \"yes\" you can go to the Widget page and use the Top Bar Widget areas with your content!"
+msgstr ""
+
+#: searchform.php:2 template-parts/header/header-elements/search-overlay.php:6
+#: template-parts/header/header-elements/search-overlay.php:10
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:8
+msgid "Please add widgets here."
+msgstr ""
+
+#: template-parts/content/archive/archive-style-1.php:18
+#: template-parts/content/blog/blog-style-1.php:18
+#: template-parts/content/category/category-style-1.php:18
+#: template-parts/content/search/search-style-1.php:18
+#: template-parts/content/tag/tag-style-1.php:18
+#: template-parts/custom-pages/homepage/blog/blog-style-1.php:24
+#: template-parts/slider/slider-tpl.php:39
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/content/content-elements/meta.php:5
+#: template-parts/content/content-elements/titles/single-major-title.php:20
+msgid "on"
+msgstr ""
+
+#: template-parts/content/content-elements/pagination/nav-below.php:6
+#, php-format
+msgid " %s Previous posts"
+msgstr ""
+
+#: template-parts/content/content-elements/pagination/nav-below.php:11
+#, php-format
+msgid "Next posts %s"
+msgstr ""
+
+#: template-parts/content/content-elements/titles/search-major-title.php:5
+msgid "You have searched the term: "
+msgstr ""
+
+#: template-parts/content/content-elements/titles/single-major-title.php:19
+msgid "by "
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/copyright-text.php:9
+msgid "Fashionable Store Theme"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/copyright-text.php:9
+msgid " by "
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/copyright-text.php:11
+msgid "akisthemes.com"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:2
+#: template-parts/header/header-elements/social-menu.php:12
+msgid "Visit us on Facebook"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:6
+#: template-parts/header/header-elements/social-menu.php:19
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:8
+#: template-parts/header/header-elements/social-menu.php:24
+msgid "View our Google+ profile"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:10
+#: template-parts/header/header-elements/social-menu.php:30
+msgid "View our Linkedin profile"
+msgstr ""
+
+#: template-parts/copyright/copyright-elements/social-menu.php:12
+#: template-parts/header/header-elements/social-menu.php:34
+msgid "Follow us on Instagram"
+msgstr ""
+
+#: template-parts/header/header-style-1.php:12
+#: template-parts/header/header-style-2.php:13
+#: template-parts/header/mobile-trigger.php:5
+#: template-parts/mobile/mobile-trigger.php:14
+#: theme-init/woocommerce-func.php:64
+msgid "View Cart"
+msgstr ""
+
+#: theme-init/init.php:40
+msgid "Add a Menu"
+msgstr ""
+
+#: theme-init/init.php:88
+msgid "Browse Categories"
+msgstr ""
+
+#: theme-init/init.php:123
+msgid "Learn More"
+msgstr ""
+
+#: theme-init/woocommerce-func.php:46
+msgid "Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:33 woocommerce/cart/mini-cart.php:87
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:71
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92 woocommerce/cart/cart.php:37
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+msgid "Cart Contents"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/global/quantity-input.php:28
+#: woocommerce/global/quantity-input.php:31
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:59 woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:94
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:154
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:27
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:96
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:50
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/content-widget-reviews.php:33
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:28
+#: woocommerce/single-product/sale-flash.php:28
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:46
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:34
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "N/A"
+msgstr ""

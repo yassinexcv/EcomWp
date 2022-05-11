@@ -1,0 +1,1768 @@
+@import base.sass
+
+.screen-reader-text
+  clip: rect(1px, 1px, 1px, 1px)
+  clip-path: polygon(0px 0px, 0px 0px, 0px 0px, 0px 0px)
+  position: absolute !important
+  white-space: nowrap
+  height: 1px
+  width: 1px
+  overflow: hidden
+  &:focus
+    clip: auto !important
+    display: block
+    height: auto
+    left: 5px
+    top: 5px
+    width: auto
+    z-index: 100000
+
+body
+  font-size: $body-font-size
+  font-family: $body-font
+  color: $body-font-color
+  line-height: $main-line-height
+  word-wrap: break-word
+  word-break: break-word
+
+a
+  color: $link-color
+  text-decoration: $link-decoration
+  &:hover
+    color: $link-hover
+    text-decoration: inherit
+    -webkit-transition: all 400ms ease-out
+    -moz-transition: all 400ms ease-out
+    -o-transition: all 400ms ease-out
+    transition: all 400ms ease-out
+  &:focus
+    color: $link-hover !important
+    outline: none !important
+    box-shadow: none
+
+h1, h2, h3, h4, h5, h6
+  font-family: $headings-font
+
+p
+  margin-bottom: $paragraph-margin-bottom
+  line-height: $main-line-height
+
+h1, h2, h3, h4
+  margin: 1.114em 0 0.5em
+  font-weight: inherit
+  line-height: 1.2
+
+h1
+  margin-top: 0
+  font-size: 3.157em
+
+h2
+  font-size: 2.2em
+
+h3
+  font-size: 1.777em
+
+h4
+  font-size: 1.333em
+
+h1, h2, h3, h4, h5, h6
+  color: $headings-color
+  font-weight: 600
+
+small, .font_small
+  font-size: 0.75em
+
+.hide-element
+  display: none
+
+.show-element
+  display: block
+
+.alignleft
+  float: left
+  margin: 0 15px 30px 0
+
+.aligncenter
+  display: block
+  margin: 0 auto 30px auto
+
+.alignright
+  float: right
+  margin: 0 0 30px 15px
+
+.alignnone
+  float: none
+  display: block
+  margin: 0 0 30px 0
+
+.size-full
+  width: 100%
+  height: auto
+  margin: 0 0 30px 0
+
+p .alignleft
+  float: left
+  margin: 5px 15px 30px 0
+
+p .aligncenter
+  display: block
+  margin: 5px auto 30px auto
+
+p .alignright
+  float: right
+  margin: 5px 0 30px 15px
+
+p .alignnone
+  float: none
+  display: block
+  margin: 5px 0 0 0
+
+p .size-full
+  width: 100%
+  height: auto
+  margin: 5px 0 0 0
+
+.wp-caption
+  background: #fff
+  border: 1px solid #f0f0f0
+  max-width: 96%
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px
+  text-align: center
+
+.wp-caption.alignnone
+  margin: 5px 20px 20px 0
+
+.wp-caption.alignleft
+  margin: 5px 20px 20px 0
+
+.wp-caption.alignright
+  margin: 5px 0 20px 20px
+
+.wp-caption img
+  border: 0 none
+  height: auto
+  margin: 0
+  max-width: 98.5%
+  padding: 0
+  width: auto
+
+.wp-caption p.wp-caption-text
+  font-size: 11px
+  line-height: 17px
+  margin: 0
+  padding: 0 4px 5px
+
+.bypostauthor
+  font-size: 16px
+
+/*=====================*/
+/** WordPress Classes */
+/*======================*/
+.sticky
+  & .sticky-icon
+    color: $sticky-icon-color
+
+.gallery
+  margin: 0 auto 18px
+  &.gallery-item
+    float: left
+    margin-top: 0
+    text-align: center
+    width: 33%
+
+.gallery-columns-2 .gallery-item
+  width: 50%
+
+.gallery-columns-4 .gallery-item
+  width: 25%
+
+.gallery img
+  box-shadow: 0px 0px 4px #999
+  border: 1px solid white
+  padding: 8px
+  background: #f2f2f2
+
+.gallery img:hover
+  background: white
+
+.gallery-columns-2 .attachment-medium
+  max-width: 92%
+  height: auto
+
+.gallery-columns-4 .attachment-thumbnail
+  max-width: 84%
+  height: auto
+
+.gallery .gallery-caption
+  color: #888
+  font-size: 12px
+  margin: 0 0 12px
+
+.gallery dl, .gallery dt
+  margin: 0
+
+.gallery br + br
+  display: none
+
+/*========================*/
+/** Helpers
+/*========================*/
+.is-uppercase
+  text-transform: uppercase
+
+.is-600
+  font-weight: 600
+
+.img-responsive
+  max-width: 100%
+  height: auto
+
+.akis-btn
+  padding: 5px 20px
+  border-style: solid
+  letter-spacing: 1px
+  font-size: 14px
+  @include for-smartphone-only
+    padding: 3px 7px
+    font-size: 12px
+  border-radius: 100px
+  display: inline-block
+  & .fas
+    margin-right: 8px
+
+.is-plain
+  color: $plain-btn-color
+  border-color: $plain-btn-border-color
+  &:hover
+    background: $plain-btn-hover-bg-color
+    color: $plain-btn-hover-color
+
+.is-plain-inverted
+  color: $plain-btn-inverted-color
+  background: $plain-btn-inverted-bg-color
+  &:hover
+    background: transparent
+    color: $plain-btn-inverted-hover-bg-color
+
+.is-danger
+  color: $danger-btn-color
+  background: $danger-btn-bg-color
+  border-color: $danger-btn-border-color
+  &:hover
+    color: $danger-btn-hover-color
+    background: $danger-btn-hover-bg-color
+    border-color: $danger-btn-hover-border-color
+
+.is-vivid
+  background: $vivid-btn-bg-color
+  border: 1px solid $vivid-btn-border-color
+  color: $vivid-btn-color
+  &:hover
+    background: $vivid-btn-hover-bg-color
+    color: $vivid-btn-hover-color
+
+.has-padding-20
+  padding: 20px
+
+.is-regular
+  font-weight: 400
+
+.no-margin
+  margin: 0
+
+.no-padding
+  padding: 0
+
+.is-block
+  display: block
+
+.is-inline-block
+  display: inline-block
+
+.is-square
+  border-radius: 0
+
+.has-border
+  border-width: 1px
+/*== Mobile Menu Actions ==*/
+.mobile-menu-actions
+  text-align: right !important
+  & li
+    margin: 0 8px 0 8px !important
+    &:last-child
+      margin-right: 0
+/*=====================*/
+/** Top Bar
+/*=====================*/
+.topbar-area
+  font-size: $topbar-font-size
+  background: $topbar-bg
+  color: $topbar-color
+  font-family: $body-font
+  border-bottom: 1px solid $topbar-border-color
+  & p
+    margin: 0
+    line-height: $topbar-line-height
+  & .topbar-text
+    text-align: right
+    @include for-mobile-only
+      text-align: center
+      margin-top: 10px
+  & .widget-container
+    margin-bottom: 0
+  & .menu
+    text-align: right
+    & li
+      border: none
+      padding-bottom: 0
+      display: inline-block
+      margin: 0 8px 0 0
+      &:last-child
+        margin-right: 0
+      &:before
+        content: none
+      & a
+        line-height: $topbar-line-height
+        &:hover > ul 
+      z-index: 9999
+      opacity: 1
+      visibility: visible
+      margin-top: 0
+      & ul
+        position: absolute
+        opacity: 0
+        visibility: hidden
+        left: 0
+        box-shadow: 0 1px 1px #eee
+        -webkit-transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+        -moz-transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+        -ms-transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+        -o-transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+        transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+        & li
+          position: relative
+          display: block
+          float: none
+          border-top: solid 1px #e7e7e7
+          border-right: solid 1px #e7e7e7
+          border-left: solid 1px #e7e7e7
+          margin: 0 0 -1px 0
+          &.current-menu-item
+            &:before
+              content: ''
+              height: 8px
+              position: absolute
+              bottom: 16px
+              background: $main-nav-underline-color
+              width: 50%
+              right: 0
+              left: auto
+          & a
+            width: 180px
+            font-weight: normal
+            font-size: 15px
+            display: block
+            text-align: left
+            padding-left: 20px
+            background: $main-nav-submenu-bg-color
+            &:hover
+              -webkit-transition: all 0.2s linear
+              -moz-transition: all 0.2s linear
+              -ms-transition: all 0.2s linear
+              -o-transition: all 0.2s linear
+              transition: all 0.2s linear
+              &:before
+                content: ''
+                height: 8px
+                position: absolute
+                bottom: 16px
+                background: $main-nav-underline-color
+                width: 50%
+                right: 0
+                left: auto
+
+
+.top-menu
+  margin: 0
+  padding: 0
+
+.justwp-sticky
+  position: fixed
+  width: 100%
+  left: 0
+  top: 0
+  z-index: 100
+  border-top: 0
+  background: inherit
+
+.transparent-header
+  width: 100%
+  position: absolute
+  z-index: 9999
+  border-bottom: none !important
+
+/*=====================*/
+/** Header Area        */
+/*=====================*/
+#header
+  &.header-style-1,
+  &.header-style-2
+    border-bottom: 1px solid #e8e8e8
+
+#header ul
+  margin: 0
+  padding: 0
+  list-style-type: none
+  font-size: $main-nav-font-size
+  color: $link-color
+  font-family: $body-font
+  text-align: center
+  & li
+    display: inline-block
+    margin: 0 16px 0 16px
+    position: relative
+    &:first-child
+      margin-left: 0
+    &:last-child
+      margin-right: 0
+    &.current-menu-item
+      &:before
+        content: ''
+        height: 5px
+        position: absolute
+        bottom: 10px
+        left: 0
+        background: $main-nav-underline-color
+        width: 100%
+    & a
+      color: inherit
+      font-weight: $main-nav-weight
+      padding: 4px 0 4px 0
+      &:hover
+        &:before
+          content: ''
+          height: 5px
+          position: absolute
+          bottom: 10px
+          left: 0
+          background: $main-nav-underline-color
+          width: 100%
+    &:hover > ul
+      z-index: 9999
+      opacity: 1
+      visibility: visible
+      margin-top: 0
+    & ul
+      position: absolute
+      opacity: 0
+      visibility: hidden
+      left: 0
+      box-shadow: 0 1px 1px #eee
+      -webkit-transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+      -moz-transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+      -ms-transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+      -o-transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+      transition: opacity 0.4s linear, margin-left 0.2s linear, margin-top 0.2s linear
+      & li
+        position: relative
+        display: block
+        float: none
+        border-top: solid 1px #e7e7e7
+        border-right: solid 1px #e7e7e7
+        border-left: solid 1px #e7e7e7
+        margin: 0 0 -1px 0
+        &.current-menu-item
+          &:before
+            content: ''
+            height: 8px
+            position: absolute
+            bottom: 16px
+            background: $main-nav-underline-color
+            width: 50%
+            right: 0
+            left: auto
+        & a
+          width: 180px
+          font-weight: normal
+          font-size: 15px
+          display: block
+          text-align: left
+          padding-left: 20px
+          background: $main-nav-submenu-bg-color
+          &:hover
+            -webkit-transition: all 0.2s linear
+            -moz-transition: all 0.2s linear
+            -ms-transition: all 0.2s linear
+            -o-transition: all 0.2s linear
+            transition: all 0.2s linear
+            &:before
+              content: ''
+              height: 8px
+              position: absolute
+              bottom: 16px
+              background: $main-nav-underline-color
+              width: 50%
+              right: 0
+              left: auto
+
+.mobile-trigger
+  font-size: 24px
+  font-weight: 900
+  padding: 0 10px 0 0
+
+.logo-image
+  line-height: 10px
+  display: block
+
+.site-title,
+.site-tagline
+  margin: 0
+
+.site-title
+  & a
+    font-family: $poppins-font
+    font-size: $body-font-size
+    color: $body-font-color
+    text-shadow: 0 1px 3px rgba(190, 190, 190, 1)
+    text-decoration: inherit
+    &:hover
+      text-shadow: 0 1px 3px rgba(150, 150, 150, 1)
+
+.site-tagline
+  color: $body-font-color
+  font-size: 0.9em
+  line-height: 19px
+  font-family: $body-font
+  font-weight: 100
+
+.shopping-cart-icon-link,
+.user-profile-link
+  position: relative
+  color: $shopping-bag-link-color
+  font-size: $shopping-bag-link-font-size
+  margin: 0 0 0 10px
+  & .shopping-cart-badge
+    font-size: 12px
+    border: 1px solid #efefef
+    z-index: 0
+    position: absolute
+    top: -12px
+    right: -8px
+    font-weight: 600
+    height: 19px
+    line-height: 19px
+    width: 20px
+    text-align: center
+    color: #333
+    background: #ffffff
+    border-radius: 50%
+
+/*= Header style specific CSS =*/
+
+#header
+  &.header-style-2
+    & ul
+      text-align: left
+/*=== Overlay Search ===*/
+#search-overlay
+  display: none
+  z-index: 99999
+
+.block
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  overflow: auto
+  text-align: center
+  background: rgba(0, 0, 0, 0.9)
+  border: #a0a0a0 solid 1px
+  margin: 0
+  &:before
+    content: ''
+    display: inline-block
+    height: 100%
+    vertical-align: middle
+    margin-right: 0
+    width: 5px
+
+.centered
+  display: inline-block
+  vertical-align: middle
+  width: 50%
+  @include for-mobile-only
+    width: 88%
+  @include for-smartphone-only
+    width: 90%
+  padding: 10px 15px
+  color: #FFF
+  border: none
+  background: transparent
+
+#search-box
+  position: relative
+  width: 100%
+  margin: 0
+
+#search-form
+  height: 4em
+  border: 1px solid #999
+  -webkit-border-radius: 2px
+  -moz-border-radius: 2px
+  border-radius: 2px
+  background-color: #fff
+  overflow: hidden
+
+#search-text
+  font-size: 14px
+  color: #ddd
+  border-width: 0
+  background: transparent
+
+#search-box input[type="text"]
+  width: 90%
+  @include for-smartphone-only
+    width: 100%
+  padding: 20px
+  color: #333
+  outline: none
+  font-size: 1.4em
+  background: #ffffff
+
+#search-button
+  position: absolute
+  top: 0
+  right: 0
+  height: 100%
+  width: 100px
+  font-size: 14px
+  color: #fff
+  text-align: center
+  line-height: 42px
+  border-width: 0
+  background-color: $search-overlay-button-bg-color
+  -webkit-border-radius: 0 2px 2px 0
+  -moz-border-radius: 0 2px 2px 0
+  border-radius: 0 2px 2px 0
+  cursor: pointer
+
+#close-btn
+  position: fixed
+  top: 1em
+  right: 1em
+
+#close-btn:hover
+  color: #777
+  cursor: pointer
+
+#cart-overlay
+  display: none
+  z-index: 9999
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  overflow: auto
+  text-align: center
+  background: #ffffff
+
+/*======================*/
+/** Header Image          */
+/*=======================*/
+.header-image-container
+  position: relative
+  background-size: cover !important
+  @include for-mobile-only
+    height: 350px
+  @include for-tablet-up
+    height: 500px
+  @include for-widescreen-up
+    height: 680px
+  image-rendering: -webkit-optimize-contrast
+  background-repeat: no-repeat
+  background-position: center
+  display: flex
+  align-items: center
+  justify-content: center
+  & .header-page-wrapper
+    padding: 40px
+    background: $header-page-wrapper-bg-color
+    max-width: 600px
+    & h2
+      font-size: $header-title-font-size
+      margin: 0 0 30px 0
+      color: $header-title-color
+/*== Header Image with sideMenu ==*/
+.header-image-with-side-menu-container
+  & .side-menu-header
+    padding: 15px
+    font-size: 18px
+    color: $side-menu-heading-text-color
+    background: $side-menu-heading-bg-color
+    font-weight: 600
+    margin: 0
+    font-family: $body-font
+    & .fas
+      margin-right: 8px
+  & p
+    margin: 0
+  & .side-menu
+    border-left: 1px solid #e7e7e7
+    border-right: 1px solid #e7e7e7
+    list-style-type: none
+    padding: 0
+    margin: 0
+    & li
+      & a
+        font-weight: normal
+        display: block
+        text-align: left
+        padding: 10px
+        background: #ffffff
+        border-bottom: solid 1px #e7e7e7
+        &:hover
+          background: $side-menu-heading-bg-color
+          color: #ffffff
+    &:first-child a
+      border-bottom: 1px solid #e7e7e7
+  & .side-menu-header-image
+    position: relative
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    & .header-page-wrapper
+      position: absolute
+      padding: 25px
+      background: $header-page-wrapper-bg-color
+      bottom: 0
+      left: 0
+      width: 100%
+      & h2
+        margin: 0
+        & a
+          color: #ffffff
+          &:hover
+            color: $side-menu-header-image-link-hover-color
+
+/*=======================*/
+/** Slider Content
+/**======================*/
+.fs-slider-wrapper
+  & .fs-slide
+    display: flex
+    height: 750px
+    @include for-widescreen-only
+      height: 600px
+    @include for-tablet-only
+      height: 520px
+    @include for-mobile-only
+      height: 480px
+    @include for-smartphone-only
+      height: 360px
+    & .fs-slide-contents
+      padding: 40px
+      background: rgba(40, 40, 80, 0.9)
+      max-width: 600px
+      & h3
+        font-size: 60px
+        @include  for-smartphone-only
+          font-size: 36px
+        margin: 0 0 30px 0
+        color: #ffffff
+  & .slick-next
+    right: 26px
+    z-index: 999
+    &:before
+      font-size: 65px
+      @include for-smartphone-only
+        font-size: 30px
+  & .slick-prev
+    left: 8px
+    z-index: 999
+    &:before
+      font-size: 65px
+      @include for-smartphone-only
+        font-size: 30px
+/*======================*/
+/** Main Content        */
+/*======================*/
+#home-section-one,
+#home-section-two,
+#home-section-three,
+#home-section-four
+  padding-top: 60px
+  @include for-smartphone-only
+    padding-top: 20px
+  @include for-mobile-only
+    padding-top: 20px
+.fs-section-titles
+  margin: 0 0 40px 0
+.section-title
+  margin: 0
+  font-size: 40px
+  @include for-smartphone-only
+    font-size: 24px
+  &:before
+    content: ''
+    width: 20px
+    background: $section-title-icon-color
+    height: 3px
+    display: inline-block
+    vertical-align: middle
+    margin-right: 8px
+.section-subtitle
+  font-family: $body-font
+  margin: 0
+  font-size: 16px
+  font-weight: 400
+  &:before
+    font-family: 'Font Awesome 5 Free', Serif
+    content: "\f141"
+    color: $section-subtitle-icon-color
+    vertical-align: middle
+    margin-right: 14px
+    font-weight: 600
+
+
+.blog-item
+  margin-bottom: 60px
+
+article
+  & h1, h2, h3, h4, h5, h6
+    margin: 0 0 20px 0
+  & a
+    text-decoration: underline
+.blog-item-meta
+  font-family: $playfair-font
+  font-size: 14px
+  color: $blog-item-meta-color
+  list-style: none
+  padding: 0
+  margin: 4px 0
+  &:before
+    content: ''
+    width: 20px
+    background: $blog-item-meta-line-color
+    height: 2px
+    display: inline-block
+    vertical-align: middle
+  & li
+    position: relative
+    display: inline-block
+    margin: 0
+    padding: 0
+    &:after
+      content: '-'
+      margin: 0 3px
+    &:last-child:after
+      content: ''
+    & a
+      margin: 0 4px 0 4px
+    &:first-child
+      margin-left: 0
+
+.blog-item-title
+  font-family: $playfair-font
+  font-weight: $blog-item-font-weight
+  & a
+    color: $link-color
+    &:hover
+      color: $link-hover
+
+.blog-item-inner-texts
+  padding: 0 0 0 20px
+  line-height: $blog-item-line-height
+  @include for-smartphone-only
+    padding: 5px
+  & .read-more-link
+    font-family: $playfair-font
+
+.comment-reply-link,
+.pagination-link
+  display: inline-block
+
+.pagination-link
+  padding: 3px 8px
+
+
+/*= Homepage Blog content =*/
+.home-blog-style-1
+  & img
+    @include for-smartphone-only
+      width: 100%
+    @include for-mobile-only
+      width: 100%
+  & .home-blog-contents
+    position: absolute
+    bottom: 20px
+    right: 10px
+    left: 10px
+    background: #000000
+    padding: 10px
+    & h2
+      line-height: 19px
+      margin-bottom: 8px
+      & a
+        color: #ffffff
+        font-size: 20px
+        &:hover
+          color: $blog-contents-link-hover-color
+    & a.read-more-link
+      font-family: $body-font
+      color: #ffffff
+      font-size: 14px
+      &:hover
+        color: $blog-contents-link-hover-color
+/*= Featured Categories =*/
+.singlizer
+  position: relative
+  background-size: cover !important
+  display: flex
+  height: 250px
+  margin-bottom: 30px
+  justify-content: center
+  align-items: flex-end
+  border-radius: 3px
+  &:hover
+    opacity: 0.8
+    -webkit-transition: all 400ms ease-out
+    -moz-transition: all 400ms ease-out
+    -o-transition: all 400ms ease-out
+    transition: all 400ms ease-out
+  & p
+    font-size: 18px
+    background: $singlizer-label-background-color
+    color: #fff
+    padding: 5px 20px
+  & a
+    position: absolute
+    height: 100%
+    width: 100%
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+/*== Testimonials =======*/
+.fs-home-testimonials-wrapper
+  background: url('../css/images/trianglify.svg') no-repeat center
+  background-size: cover !important
+.fs-testimonials-container
+  margin: 0 auto
+  max-width: 768px
+  @include for-smartphone-only
+    margin: 0 auto
+.fs-single-testimonial
+  max-width: 768px
+  position: relative
+  background: #FFFFFF
+  padding: 40px 60px
+  border: 4px double $testimonial-border-color
+  & .testimonial-image
+    & img
+     border-radius: 50%
+     border: 2px solid $testimonial-image-border-color
+  & .testimonial-name
+    & h5
+      color: $testimonial-name-color
+      margin: 0
+      font-size: 16px
+
+.slick-prev:before
+  font-family: 'Font Awesome 5 Free', Serif
+  content: "\f104"
+  font-weight: 600
+  font-size: 40px
+  @include for-mobile-only
+    font-size: 20px
+.slick-next:before
+  font-family: 'Font Awesome 5 Free', Serif
+  content: "\f105"
+  font-weight: 600
+  font-size: 40px
+  @include for-mobile-only
+    font-size: 20px
+.slick-dots
+  bottom: -36px
+.slick-dots li button:before
+  font-family: 'Font Awesome 5 Free', Serif
+  content: "\f111"
+  font-size: 18px
+/*======================*/
+/*=====================*/
+/** Single post */
+/*=====================*/
+.major-title
+  font-weight: 400
+  padding: 10px 0
+  border-bottom: 1px solid #eee
+  & h1
+    font-size: 24px
+  & h2
+    font-size: 24px
+  & p
+    margin: 3px 0 0 0
+    font-size: 14px
+
+/*======================**/
+/** Search Form (Native)
+/*=======================*/
+
+/*=====================*/
+/** Comments **/
+/*=====================*/
+.avatar
+  height: 64px
+  width: 64px
+
+.gravatar
+  flex: 3
+  & img
+    float: right
+/* width: 1.6rem; */
+.comments-container
+  & article
+    padding: 15px 20px
+    background: $comment-bg
+  &.comment-meta
+    flex: 2
+  & .comment-author-link
+    font-size: 16px
+    color: $comment-name-color
+    font-weight: 900
+  & time
+    font-size: 13px
+    padding: 5px
+    background: $comment-name-color
+    color: #ffffff
+    display: block
+    & a
+      color: $link-hover
+  & .comment-author
+    margin: 0
+  & .comment-content
+    margin: 20px 0 0 0
+
+.comment-form
+  & input[type=text], input[type=email], input[type=password], input[type=tel]
+    width: 100%
+    border: 2px solid #d8d8d8
+  & textarea
+    width: 100%
+    border: 2px solid #d8d8d8
+  & input[type=submit]
+    padding: 8px 24px
+    border: 1px solid #50596C
+    color: $text-color
+    margin-top: 5px
+    display: inline-block
+    cursor: pointer
+    &:hover
+      border: 1px solid #50596c
+      color: inherit
+      background: $button-hover-color
+/*=====================*/
+/** Widget Area (Main) + Top Areas*/
+/*=====================*/
+.widget-area
+  padding: 0 8px
+  & h3
+    margin-bottom: 30px
+    font-size: $widget-title-font-size
+    font-weight: $widget-title-font-weight
+    &:before
+      content: ''
+      width: 20px
+      background: #181b31
+      height: 2px
+      display: inline-block
+      vertical-align: middle
+      margin-right: 8px
+    &:first-child
+      margin-top: 0
+
+.widget-container
+  margin-bottom: 50px
+  & img
+    max-width: 100%
+    height: auto
+  select, input[type=text], input[type=email]
+    width: 100%
+    padding: 4px
+    border: 1px solid $widget-input-border
+  & ul
+    padding: 0
+    margin: 0
+    list-style-type: none
+    & li
+      padding-bottom: 5px
+      line-height: 26px
+      border-bottom: 1px solid rgba(100, 100, 100, 0.1)
+      margin-top: 16px
+      & span.count
+        font-size: 12px
+      &:first-child
+        margin-top: 0
+      &:before
+        font-family: 'Font Awesome 5 Free', Serif
+        content: "\f192"
+        margin-right: 6px
+        vertical-align: text-top
+        color: $link-hover
+        font-size: 7px
+        font-weight: 900
+      & .post-date
+        font-size: 12px
+        display: block
+      & ul.sub-menu
+        padding: 0 0 0 8px
+      & ul.children
+        padding: 0 0 0 8px
+        & li
+          margin: 0
+          border: none
+          padding-bottom: 2px
+          & a
+            font-size: 14px
+          &:before
+            content: "\f105"
+      & a
+        color: $link-color
+        &:hover
+          color: $link-hover
+  & #wp-calendar
+    width: 100%
+    & caption
+      padding: 4px 0
+      background: rgba(220, 220, 220, 0.2)
+    & tfoot tr td a
+      padding: 4px
+      background: rgba(220, 220, 220, 0.2)
+      color: #444444
+  & .widget_recent_entries
+    font-size: 12px
+    display: inline-block
+  & .tagcloud
+    & a
+      padding: 2px 8px
+      background: #f4f4f4
+      margin: 0 3px 6px 0
+      display: inline-block
+      border: 1px solid rgba(200, 200, 200, 0.5)
+      font-size: 13px !important
+      color: $text-color
+      &:hover
+        background: #eeeeee
+        border: 1px solid rgba(200, 200, 200, 1)
+/*=====================*/
+/** Footer Area        */
+/*=====================*/
+.footer-area
+  background: $footer-bg
+
+.footer-widget
+  font-size: $footer-widget-font-size
+  line-height: $footer-widget-line-height
+  padding: 5px 25px
+  @include for-smartphone-only
+    padding: 2px
+  & .footer-widget-title
+    font-size: $footer-widget-title-font-size
+    font-weight: $footer-widget-title-font-weight
+    line-height: $footer-widget-title-line-height
+    margin: 0 0 30px 0
+    &:before
+      content: ''
+      width: 20px
+      background: $footer-widget-title-border-color
+      height: 2px
+      display: inline-block
+      vertical-align: middle
+      margin-right: 8px
+  & ul
+    margin: 0
+    padding: 0
+    list-style: none
+    & li
+      margin: 8px 0
+      &:first-child
+        margin-top: 0
+      & a
+        color: $footer-widget-link-color
+        &:hover
+          color: $link-hover
+  .tagcloud a
+    padding: 2px 8px
+    background: #fefefe
+    margin: 0 3px 6px 0
+    display: inline-block
+    border: 1px solid rgba(200, 200, 200, 0.5)
+    font-size: 13px !important
+    color: $text-color
+    &:hover
+      background: #eeeeee
+      border: 1px solid rgba(200, 200, 200, 1)
+/*=====================*/
+/** Copyright Area        */
+/*=====================*/
+#copyright
+  background: $copyright-bg
+  color: $copyright-txt
+  font-family: $body-font
+  font-size: $copyright-font-size
+  & p
+    margin: 0
+  & a
+    color: $copyright-link
+    @include for-smartphone-only
+      font-size: 12px
+    &:hover
+      color: $copyright-link-hover
+  & ul
+    list-style-type: none
+    margin: 0
+    @include for-smartphone-only
+      padding: 0
+      text-align: center
+    & li
+      display: inline-block
+      margin: 0 8px 0 0
+      &:after
+        font-family: 'Font Awesome 5 Free', Serif
+        content: "\f111"
+        margin-left: 10px
+        font-size: 5px
+        vertical-align: middle
+      &:last-child
+        margin-right: 0
+      &:last-child:after
+        content: ''
+        margin-left: 0
+  & .social-menu li:after
+    content: ''
+    margin: 0
+  & .social-menu a
+    font-size: $copyright-social-size
+.copyright-text
+  @include for-smartphone-only
+    text-align: center
+    font-size: 11px
+/*===================================*/
+/** WooCommerce Styling **/
+/*====================================*/
+.woocommerce-MyAccount-navigation ul
+  padding: 0
+  margin: 0
+  list-style-type: none
+  & li.is-active
+    & a
+      position: relative
+      display: inline-block
+      &:before
+        content: ''
+        height: 5px
+        position: absolute
+        bottom: 10px
+        left: 0
+        background: rgba(243, 113, 57, 0.3)
+        width: 100%
+
+/*= WooCommerce Info Messages =*/
+.woocommerce-message
+  & a.button
+    font-weight: 600
+    background: #ffffff
+    &:hover
+      background: #f8f8f8
+.woocommerce-info
+  background: $woocommerce-info-bg-color
+  color: $woocommerce-info-color
+  border-color: $woocommerce-info-border-color
+  &:before
+    color: $woocommerce-info-icon-color
+  & a
+    font-weight: 600
+    color: $woocommerce-info-link-color
+    &:hover
+      color: $woocommerce-info-hover-link-color
+/*= WooCommerce Messages =*/
+.woocommerce-message
+  background: $woocommerce-message-bg-color
+  color: $woocommerce-message-color
+  border-color: $woocommerce-message-border-color
+  &:before
+    color: $woocommerce-message-icon-color
+  & a
+    font-weight: 600
+    color: $woocommerce-message-link-color
+    &:hover
+      color: $woocommerce-message-hover-link-color
+/*= WooCommerce Errors =*/
+.woocommerce-error
+  background: $woocommerce-error-bg-color
+  color: $woocommerce-error-color
+  border-color: $woocommerce-error-border-color
+  font-weight: 300
+  & a
+    color: $woocommerce-error-link-color
+    font-weight: 600
+  &:before
+    color: $woocommerce-error-icon-color
+/*= WooCommerce BreadCrumb ==*/
+.woo-breadcrumb
+  & .woocommerce-breadcrumb
+    padding: 0
+    margin: 0
+    & .breadcrumb-delimiter
+      margin: 0 8px
+      color: $woocommerce-breadcrumb-delimiter-color
+/*== WooCommerce results count ==*/
+.woocommerce-result-count
+  font-size: 14px
+  color: $woocommerce-result-count-text-color
+/*== WooCommerce Ordering ==*/
+.woocommerce-ordering
+  & select
+    color: $woocommerce-ordering-text-color
+    font-size: 14px
+    padding: 4px
+    border: 1px solid $woocommerce-ordering-border-color
+    border-radius: 2px
+/*== WooCommerce Loop items ==*/
+.woocommerce ul.products li.product .woocommerce-loop-product__title
+  margin: 0
+  padding: 0
+  font-weight: 400
+  font-family: $body-font
+  &:hover
+    color: $woocommerce-loop-hover_text_color
+    -webkit-transition: all 400ms ease-out
+    -moz-transition: all 400ms ease-out
+    -o-transition: all 400ms ease-out
+    transition: all 400ms ease-out
+
+.woocommerce ul.products li.product .price
+  color: $body-font-color
+  margin-bottom: 0
+  display: inline-block
+
+.woocommerce ul.products li.product .price ins
+  display: inline-block
+  margin-left: 4px
+  text-decoration: none
+  font-weight: 600
+
+.woocommerce ul.products li.product .button
+  display: none
+  @include for-touch
+    display: block
+  background: transparent
+  padding: 0
+  font-weight: 400
+  font-size: 14px
+  margin: 0 8px 0 0
+  &:hover
+    color: $woocommerce-add-to-cart-hover-color
+
+.woocommerce a.added_to_cart
+  color: $woocommerce_added-to-cart-text-color
+  font-size: 14px
+  margin: 0
+  padding: 0
+  line-height: 28px
+  display: block
+
+.ajax_add_to_cart.added
+  display: none !important
+
+.fs-onsale
+  position: absolute
+  top: 0
+  left: 0
+  margin: 0
+  border-radius: 0
+  padding: 8px 20px
+  background: $woocommerce-sale-flash-bg-color
+  color: $woocommerce-sale-flash-text-color
+  font-weight: 400
+  line-height: 16px
+  z-index: 999
+
+.fs-product-onsale
+  position: absolute
+  top: 0
+  left: 0
+  margin: 0
+  border-radius: 0
+  padding: 8px 20px
+  background: $woocommerce-sale-flash-bg-color
+  color: $woocommerce-sale-flash-text-color
+  font-weight: 400
+  line-height: 16px
+  z-index: 999
+
+.woocommerce ul.products li.product .star-rating
+  font-size: 0.5em
+  margin-top: 5px
+  color: orange
+/*== WooCommerce Pagination =*/
+.woocommerce nav.woocommerce-pagination ul
+  border: none
+  & li
+    border: none
+    & a
+      padding: 16px
+      &:hover
+        background: transparent
+        color: $pagination-hover-color
+    & span
+      padding: 16px
+      &.current
+        background: transparent
+        color: $pagination-current-color
+
+/*= WooCommerce Forms
+/* Login Form & others
+/*===============*/
+.woocommerce form.login,
+.woocommerce form.register
+  border: none
+  padding: 0
+  margin: 16px 0
+
+.woocommerce form .form-row label,
+.woocommerce-page form .form-row label
+  font-size: 14px
+  margin-bottom: 4px
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea
+  padding: 8px
+  border: 1px solid $woocommerce-input-border-color
+  background: $woocommerce-input-bg-color
+
+.woocommerce-LostPassword
+  & a
+    font-size: 14px
+
+.woocommerce form
+  & button.woocommerce-Button.button
+    font-weight: 400
+    background: $woocommerce-submit-bg-color
+    color: $woocommerce-submit-text-color
+    border: 1px solid $woocommerce-submit-bg-color
+    -webkit-transition: all 400ms ease-out
+    -moz-transition: all 400ms ease-out
+    -o-transition: all 400ms ease-out
+    transition: all 400ms ease-out
+    &:hover
+      border: 1px solid $woocommerce-submit-hover-border-color
+      color: $woocommerce-submit-hover-text-color
+      background: $woocommerce-submit-hover-bg-color
+
+.woocommerce button.button.inverted-btn
+  color: $woocommerce-submit-bg-color
+  background: $woocommerce-submit-text-color
+  border: 1px solid $woocommerce-submit-bg-color
+  -webkit-transition: all 400ms ease-out
+  -moz-transition: all 400ms ease-out
+  -o-transition: all 400ms ease-out
+  transition: all 400ms ease-out
+  &:hover
+    border: 1px solid $woocommerce-submit-hover-bg-color
+    background: $woocommerce-submit-hover-text-color
+    color: $woocommerce-submit-hover-bg-color
+
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce button.button,
+.woocommerce #respond input#submit
+  font-weight: 400
+  padding: 12px
+  font-size: 16px
+  background: $woocommerce-submit-bg-color
+  color: $woocommerce-submit-text-color
+  border: 1px solid $woocommerce-submit-border-color
+  -webkit-transition: all 400ms ease-out
+  -moz-transition: all 400ms ease-out
+  -o-transition: all 400ms ease-out
+  transition: all 400ms ease-out
+  &:hover
+    border: 1px solid $woocommerce-submit-hover-border-color
+    color: $woocommerce-submit-hover-text-color
+    background: $woocommerce-submit-hover-bg-color
+
+.woocommerce-mini-cart__buttons.buttons
+  & a
+    margin-right: 10px
+    font-weight: 400
+    background: $woocommerce-submit-bg-color
+    color: $woocommerce-submit-text-color
+    border: 1px solid $woocommerce-submit-border-color
+    -webkit-transition: all 400ms ease-out
+    -moz-transition: all 400ms ease-out
+    -o-transition: all 400ms ease-out
+    transition: all 400ms ease-out
+    &:last-child
+      margin-right: 0
+    &:hover
+      border: 1px solid $woocommerce-submit-hover-border-color
+      color: $woocommerce-submit-hover-text-color
+      background: $woocommerce-submit-hover-bg-color
+
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled]
+  color: #fff
+
+.checkout-button
+  font-size: 18px !important
+  padding: 12px
+
+/*= Minicart =*/
+.fashionable-store-minicart
+  padding: 0
+  & li
+    border-bottom: 1px solid $woocommerce-minicart-line-border-color
+    padding: 20px 0
+    margin-top: 20px
+    margin-bottom: 20px
+  & .woocommerce-mini-cart-item
+    align-items: center
+  & .amount
+    font-weight: 600
+
+#cart-close-button
+  position: absolute
+  right: 30px
+  top: 40px
+  @include for-smartphone-only
+    top: 20px
+
+.minicart-image-link
+  & img
+    max-width: 100%
+    height: auto
+
+.woocommerce-mini-cart__total.total
+  background: $woocommerce-minicart-total-bg-color
+  padding: 10px
+  font-weight: 300
+  display: inline-block
+  border: 1px solid $woocommerce-minicart-total-border-color
+
+.woocommerce a.remove
+  font-size: 19px
+  height: 20px
+  padding: 0
+  width: 20px
+  text-align: center
+  border-radius: 100%
+  color: $woocommerce-added-to-cart-text-color !important
+  text-decoration: none
+  font-weight: 700
+  border: 1px solid $woocommerce-added-to-cart-text-color
+
+/*= Cart Page =*/
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals
+  float: none
+  width: 100%
+.cart_totals
+  & table.shop_table
+    & tr
+      & th
+        font-weight: 600
+  & .amount
+    font-weight: 600
+.cross-sells
+  & h4
+    font-size: 20px
+    font-family: $body-font
+.woocommerce ul#shipping_method .amount
+  font-weight: 600
+.woocommerce-cart-form,
+.cart_totals
+  & h2
+    font-size: 26px
+    font-weight: 400
+    font-family: $body-font
+#coupon_code
+  font-size: 14px
+  width: 190px !important
+/*= Checkout Page =*/
+.woocommerce-billing-fields,
+.woocommerce-shipping-fields
+  & h3
+    font-weight: 600
+    font-family: $body-font
+#order_review_heading
+  font-family: $body-font
+
+.woocommerce table.shop_table th,
+.woocommerce table.shop_table tfoot th,
+.woocommerce ul#shipping_method li label
+  font-weight: 600
+.woocommerce-checkout #payment ul.payment_methods
+  background: $woocommerce-payment-methods-bg-color
+  border: 4px solid $woocommerce-payment-methods-border-color
+
+tr.order-total
+  & td
+    & strong
+      font-weight: 600
+    & .amount
+    font-size: 30px
+    color: $order-total-text-color
+/*== Single Product ==*/
+.woocommerce div.product .product_title
+  font-size: 35px
+  font-family: $body-font
+  border-bottom: 1px solid $woocommerce-single-title-border-color
+  padding-bottom: 18px
+
+.woocommerce div.product p.price,
+.woocommerce div.product p.price ins,
+.woocommerce div.product span.price
+  font-weight: 600
+  color: $woocommerce-added-to-cart-text-color
+  text-decoration: none
+  font-size: 24px
+  margin-bottom: 0
+
+.woocommerce div.product p.price del
+  color: $woocommerce-del-price-color
+
+.woocommerce div.product p.stock
+  margin: 0
+  color: $woocommerce-stock-text-color
+
+.woocommerce .woocommerce-product-rating
+  & .star-rating
+    font-size: 12px
+    color: orange
+.woocommerce .star-rating span
+  color: orange
+.woocommerce-review-link
+  font-size: 12px
+  vertical-align: super
+
+.woocommerce div.product .woocommerce-product-rating
+  margin-bottom: 0
+
+.fashionable-product-meta-list
+  margin: 10px 0 0 0
+  line-height: 28px
+  padding: 0
+  list-style-type: none
+  font-size: 14px
+  & li
+    & .sku
+      font-weight: 600
+    & a
+      font-weight: 600
+
+.variation-value
+  margin-bottom: 12px
+
+.woocommerce div.product form.cart .variations select
+  padding: 8px
+  border: 1px solid $woocommerce-variation-border-color
+  background: $woocommerce-variation-background
+  margin-bottom: 10px
+
+.woocommerce div.product form.cart .variations label
+  font-weight: 600
+
+.woocommerce button.button.alt.disabled
+  background: $woocommerce-submit-bg-color
+  &:hover
+    background: $woocommerce-submit-bg-color
+
+.woocommerce .quantity .qty
+  width: 5em
+  border: 1px solid #f1f2f1
+  border-radius: 3px
+  padding: 7px
+
+.woocommerce div.product form.cart .button
+  padding: 14.5px
+
+.woocommerce div.product .woocommerce-tabs ul.tabs
+  text-align: center
+  &:before
+    border: none
+  & li
+    border: none
+    border-radius: 0
+    background: transparent
+    &:before
+      display: none
+    &:after
+      display: none
+    &.active
+      & a
+        color: $woocommerce-active-tab-link-color
+    & a
+      font-weight: 600
+.woocommerce-Tabs-panel
+  & h2
+    font-family: $body-font
+    font-size: 20px
+    font-weight: 600
+    margin: 0 0 8px 0
+
+/*= Fs Widgets =*/
+ul.product_list_widget li .star-rating
+  float: none
+  font-size: 0.5em
+  margin-top: 0
+  color: orange
+
+.woocommerce ul.product_list_widget li a
+  display: block
+  font-weight: 400
+  line-height: 24px
+  font-size: 15px
+  color: $woocommerce-widget-link-color
+
+.woocommerce ul.product_list_widget li img
+  float: none
+  width: 64px
+
+.fs-woo-widget
+  & .fs-widget-title
+    padding-left: 10px
+  & del
+    opacity: 0.5
+    font-weight: 300
+  & .amount
+    font-size: 13px
+    font-weight: 600
+    &:hover
+      color: $woocommerce-widget-link-hover-color
+.fs-widget-review-body
+  padding: 8px 0
+  font-size: 14px !important
+  line-height: 21px
+.wpcf7
+  & input[type=text], textarea, input[type=tel], input[type=password], input[type=email]
+    width: 100%
+    padding: 8px
+    border: 1px solid $woocommerce-input-border-color
+    background: $woocommerce-input-bg-color
+    margin: 0 0 15px 0
+  & input[type=submit]
+    cursor: pointer
+    font-weight: 400
+    padding: 8px 20px
+    font-size: 16px
+    display: inline-block
+    border-radius: 3px
+    background: $woocommerce-submit-bg-color
+    color: $woocommerce-submit-text-color
+    border: 1px solid $woocommerce-submit-border-color
+    -webkit-transition: all 400ms ease-out
+    -moz-transition: all 400ms ease-out
+    -o-transition: all 400ms ease-out
+    transition: all 400ms ease-out

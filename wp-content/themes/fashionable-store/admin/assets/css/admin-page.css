@@ -1,0 +1,194 @@
+/* CSS for the Admin Page  */
+.akisthemes-about-wrapper {
+    max-width: 1180px;
+}
+
+.akisthemes-about-wrapper h2 {
+    font-size: 30px;
+}
+
+.akisthemes-about-wrapper h3 {
+    line-height: 26px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center-flex {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Promo */
+.promo-div {
+    background: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #212222;
+}
+
+.promo-btn {
+    display: inline-block;
+}
+
+.promo-div h3 {
+    margin: 0;
+}
+
+.promo-div p {
+    margin: 8px 0 25px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.show-tab-content{
+    display: block;
+}
+.hide-tab-content{
+    display: none;
+}
+/* Tabs */
+.akisthemes-tabs{
+    max-width: 1180px;
+}
+.akisthemes-tabs a {
+    font-size: 17px;
+    padding: 8px 16px;
+}
+.about-tab-content{
+    max-width: 1180px;
+}
+.about-tab-content h4 {
+    font-size: 18px;
+}
+.about-tab-content p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.plugin-success{
+    background: rgba(0, 167, 4, 0.78);
+    color: #ffffff ;
+    padding: 8px 16px;
+}
+/*  SECTIONS  ============================================================================= */
+.akis-section {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+/*  GROUPING  ============================================================================= */
+.akis-group:before,
+.akis-group:after {
+    content: "";
+    display: table;
+}
+
+.akis-group:after {
+    clear: both;
+}
+
+.akis-group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.akis-col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.akis-col:first-child {
+    margin-left: 0;
+}
+
+/* all browsers except IE6 and lower */
+
+/*  GRID OF TWO   ============================================================================= */
+.span_2_of_2 {
+    width: 100%;
+}
+
+.span_1_of_2 {
+    width: 49.2%;
+}
+
+/*  GRID OF THREE   ============================================================================= */
+.span_3_of_3 {
+    width: 100%;
+}
+
+.span_2_of_3 {
+    width: 66.13%;
+}
+
+.span_1_of_3 {
+    width: 32.26%;
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+.span_4_of_4 {
+    width: 100%;
+}
+
+.span_3_of_4 {
+    width: 74.6%;
+}
+
+.span_2_of_4 {
+    width: 49.2%;
+}
+
+.span_1_of_4 {
+    width: 23.8%;
+}
+
+@media only screen and (max-width: 480px) {
+    .d-flex {
+        display: block;
+    }
+
+    .akis-col {
+        margin: 1% 0 1% 0;
+    }
+
+    .span_2_of_2 {
+        width: 100%;
+    }
+
+    .span_1_of_2 {
+        width: 100%;
+    }
+
+    .span_3_of_3 {
+        width: 100%;
+    }
+
+    .span_2_of_3 {
+        width: 100%;
+    }
+
+    .span_1_of_3 {
+        width: 100%;
+    }
+
+    .span_4_of_4 {
+        width: 100%;
+    }
+
+    .span_3_of_4 {
+        width: 100%;
+    }
+
+    .span_2_of_4 {
+        width: 100%;
+    }
+
+    .span_1_of_4 {
+        width: 100%;
+    }
+}
